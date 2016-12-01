@@ -1,2 +1,8 @@
 # hello-world
-Its a python site 
+
+def main():
+  print("Its a python site ")
+
+if '__name__' == '__main__':
+  main()
+
