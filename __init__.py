@@ -11,3 +11,5 @@ def home():
 @app.route("/blogs")
 def blogs():
   return renter_template("blogs.html")
+
+app.run(debug=true, port=5000)
